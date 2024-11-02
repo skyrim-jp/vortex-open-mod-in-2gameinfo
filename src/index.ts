@@ -7,7 +7,7 @@ function main(context: IExtensionContext) {
     1000,
     "link",
     {},
-    "Mod データベース で開く",
+    "2game.info で開く",
     (instanceIds) => {
       const state: IState = context.api.store.getState();
       const gameMode = selectors.activeGameId(state);
